@@ -2,42 +2,42 @@
 
 ## To Do List
 
-- [ ] **Ex #1**
+- [X] **Exercise #1**
 
-  - Linear Regression
+  - Linear regression with one variable
 
   - Linear Regression with multiple variables
 
-- [ ] **Ex #2**
+- [ ] **Exercise #2**
 
   - Logistic Regression
   - Logistic Regression with Regularization
 
-- [ ] **Ex #3**
+- [ ] **Exercise #3**
 
   - Multiclass Classification
   - Neural Networks Prediction fuction
 
-- [ ] **Ex #4**
+- [ ] **Exercise #4**
 
   - Neural Networks Learning
 
-- [ ] **Ex #5**
+- [ ] **Exercise #5**
 
   - Regularized Linear Regression
   - Bias vs. Variance
 
-- [ ] **Ex #6**
+- [ ] **Exercise #6**
 
   - Support Vector Machines
   - Spam email Classifier
 
-- [ ] **Ex #7**
+- [ ] **Exercise #7**
 
   - K-means Clustering
   - Principal Component Analysis
 
-- [ ] **Ex #8**
+- [ ] **Exercise #8**
 
   - Anomaly Detection
   - Recommender Systems
