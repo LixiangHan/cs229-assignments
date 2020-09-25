@@ -1,5 +1,5 @@
 # About
-This Repo contain my solution to the assignments of **Machine Learning** on Coursera by Prof. Andrew Ng.
+This Repo contains my solutions to the assignments of **Machine Learning** on Coursera by Prof. Andrew Ng.
 ## To Do List
 
 - [X] **Exercise #1**
