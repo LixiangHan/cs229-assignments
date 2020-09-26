@@ -53,7 +53,7 @@ def cost_function(theta, X, y, _lambda):
     a = - np.dot(y.T, np.log(h_theta))
     b = - np.dot((1 - y).T, np.log(1 - h_theta))
     c = a + b
-    d = _lambda * np.dot(theta, theta.T) / m / 2
+    d = _lambda * np.dot(theta[1:], theta[1:].T) / m / 2 # only if j >= 1
     J_val = c / m + d
 
     return J_val[0][0]
@@ -66,8 +66,8 @@ def gradient(theta, X, y, _lambda):
     # Calculate gradient descent
     a = h_theta - y
     b = _lambda * theta / m
-    c = np.dot(X.T, a) / m
-    gradience = c.T[0] + b
+    gradience = (np.dot(X.T, a) / m).ravel()
+    gradience[1:] = gradience[1:] + b[:-1] # theta[j]: only if j >= 1
 
     return gradience
 
@@ -92,7 +92,7 @@ def main():
 
     X = feature_map(X)
     theta = np.zeros((28,), dtype=np.float)
-    _lambda = 1
+    _lambda = 0.1
     
     res = optimize.minimize(cost_function, theta, (X, y, _lambda), 'BFGS', gradient)
     theta = res.x
@@ -111,9 +111,6 @@ def main():
     plt.xlabel('Microchip test 1')
     plt.ylabel('Microchip test 2')
     plt.show()
-
-
-    
 
 
 if __name__ == '__main__':
