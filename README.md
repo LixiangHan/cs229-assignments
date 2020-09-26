@@ -8,11 +8,11 @@ This Repo contains my solutions to the assignments of **Machine Learning** on Co
 
   - Linear Regression with multiple variables
 
-- [ ] **Exercise #2**
+- [X] **Exercise #2**
 
   - Logistic Regression
-  - Logistic Regression with Regularization
-
+  - Regularized logistic regression
+  
 - [ ] **Exercise #3**
 
   - Multiclass Classification
