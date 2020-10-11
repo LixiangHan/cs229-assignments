@@ -13,7 +13,7 @@ This Repo contains my solutions to the assignments of **Machine Learning** on Co
   - Logistic Regression
   - Regularized logistic regression
   
-- [ ] **Exercise #3**
+- [X] **Exercise #3**
 
   - Multi-class Classification
   - Neural Networks
