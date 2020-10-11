@@ -15,8 +15,8 @@ This Repo contains my solutions to the assignments of **Machine Learning** on Co
   
 - [ ] **Exercise #3**
 
-  - Multiclass Classification
-  - Neural Networks Prediction fuction
+  - Multi-class Classification
+  - Neural Networks
 
 - [ ] **Exercise #4**
 
