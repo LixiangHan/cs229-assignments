@@ -86,7 +86,7 @@ def main():
     pred_y = np.argmax(pred_y, axis=0)
     
     acc = np.where(y.T[0] == pred_y)[0].size / 5000.
-    print('The accuracy is: %.2f.' % acc)
+    print('The accuracy is: %.4f.' % acc)
     
 
 if __name__ == '__main__':
